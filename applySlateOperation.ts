@@ -13,7 +13,7 @@ import {
   SetNodeOperation,
   SplitNodeOperation,
 } from "slate";
-import { cloneObject } from "./bridge/toSlateEditor";
+import { cloneObject } from "./toSlateEditor";
 import { SyncEditorChildren, SyncNode, toSyncNode } from "./toSyncEditor";
 
 const cloneSyncNode = (object: SyncNode): SyncNode => {
