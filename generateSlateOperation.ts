@@ -1,7 +1,7 @@
 import { Diff, FreezeObject } from "automerge";
 import { Operation } from "slate";
 import { Path } from "slate/dist/interfaces/path";
-import { convertSlateNode } from "./bridge/toSlateEditor";
+import { convertSlateNode } from "./toSlateEditor";
 import { SyncEditorChildren } from "./toSyncEditor";
 
 type MaybeOperation = Operation | undefined;
